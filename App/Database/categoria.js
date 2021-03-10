@@ -13,5 +13,6 @@ const categoria = con.define('categoria', {
 }, {
     timestamps: false
 })
-categoria.sync()
-module.exports =categoria 
+
+
+module.exports = categoria 
